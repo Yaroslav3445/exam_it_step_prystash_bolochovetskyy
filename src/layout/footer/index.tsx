@@ -3,7 +3,9 @@ import s from "./footer.module.scss"
 
 const Footer = () => {
   return (
-    <div className={s.footer}>Footer</div>
+    <>
+    <svg className="img_footer"></svg>
+    </>
   )
 }
 

@@ -1,0 +1,35 @@
+.our {
+    max-width: 1135px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 156px;
+  }
+  
+  .vl {
+    border-left: 2px solid #4DE6FF;
+    height: 210px;
+    padding-right: 50px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .vl2 {
+    border: 1px solid #4DE6FF;
+    width: 100%;
+  }
+
+  .title2 {
+    color: #111827;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    width: 500px;
+    text-align: center;
+  }

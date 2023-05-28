@@ -1,0 +1,42 @@
+.link_gradiend {
+    padding: 19px 25px;
+    background-color: white;
+    border: 1px solid #4de5ff;
+    border-radius: 100px;
+    color: #016475;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.link_right {
+    padding: 19px 25px;
+    background-color: white;
+    border: 1px solid #016475;
+    border-radius: 100px;
+    color: #4de5ff;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+.link_right:hover {
+    background-color: #4de5ff;
+}
+
+.link_gradiend:hover {
+    background-color: #4de5ff;
+}
+
+.link_news {
+    padding: 60px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 430px;
+}

@@ -1,3 +1,131 @@
-body{
-    margin: 0;
+@import url("https://fonts.googleapis.com/css?family-Montserrat:500, 480, 700, 600|Source+Sans+Pro:400,680 | Roboto:400|Inter:800");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600px;
+  color: white;
+  margin: 0;
+}
+
+.img_footer {
+  background-image: url(../../public/footer.png);
+  width: 1504px;
+  height: 567px;
+  margin: 0;
+}
+
+.header_logo {
+    margin-left: 120px;
+    width: 90px;
+    height: 90px;
+    left: 118px;
+    top: 0px;
+    background-image: url(../../public/logo.svg);
+}
+
+
+.card_img_maks {
+  background-image: url(../../public/img/photo/maks.png);
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.card_img_eva {
+  background-image: url(../../public/img/photo/eva.png);
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.card_img_maksymov {
+  background-image: url(../../public/img/photo/maksymov.png);
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.card_img_maksym {
+  background-image: url(../../public/img/photo/maksym.png);
+  background-repeat: no-repeat;
+  height: 250px;
+}
+
+.card_news_img {
+  background-image: url(../../public/img/news/news.png);
+  background-repeat: no-repeat;
+}
+
+.container {
+  padding: 2px 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1197px;
+}
+
+
+.title {
+  margin-top: 10px;
+  margin-right: 20px;
+  color: #111827;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card__body {
+  color: #111827;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.comand {
+  background-image: url(../../public/Group\ 22.png);
+  width: 492px;
+  height: 120px;
+  background-repeat: no-repeat;
+}
+
+
+.logister {
+  position: absolute;
+  left: 40%;
+  top: 3%;
+}
+
+.logister2 {
+  position: absolute;
+  left: 80%;
+  top: 20%;
+}
+
+.logister3 {
+  position: absolute;
+  left: 10%;
+  top: 60%;
+}
+
+h1 {
+  text-align: center;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 71px;
+  color: #000000;
+  padding-bottom: 83px;
+}
+
+.vector {
+  background-image: url(../../public/Vector\ 3.png);
 }
