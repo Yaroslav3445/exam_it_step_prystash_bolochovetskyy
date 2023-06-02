@@ -1,11 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family-Montserrat:500, 480, 700, 600|Source+Sans+Pro:400,680 | Roboto:400|Inter:800");
+
 .header {
   max-width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 0px 20px 0px 20px;
-  background-color: #6867AB;
-  flex-wrap: wrap;
+  background-color: #6867ab;
 }
 
 .header_list {
@@ -13,7 +11,7 @@
   list-style-type: none;
   gap: 41px;
   flex-wrap: wrap;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -23,15 +21,23 @@
 }
 
 .header_link_gradiend {
-  margin-right: 120px;
   padding: 7px 27px;
-  background-color: #4DE6FF;
+  background-color: #4de6ff;
   border-radius: 8px;
   color: black;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }

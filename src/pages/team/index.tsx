@@ -1,15 +1,15 @@
-import React from 'react'
-import Card from '../../components/card'
+import React from "react";
+import Card from "../../components/card";
 
 const Team = () => {
-    return (
-        <>
-            <svg className="comand"></svg>
-            <div className='container'>
-                <Card />
-            </div>
-        </>
-    )
-}
+  return (
+    <>
+      <div className="container">
+        <svg className="comand"></svg>
+        <Card />
+      </div>
+    </>
+  );
+};
 
-export default Team
+export default Team;

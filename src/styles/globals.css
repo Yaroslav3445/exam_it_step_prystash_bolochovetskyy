@@ -7,22 +7,63 @@ body {
   margin: 0;
 }
 
+.main {
+  max-width: 100%;
+  margin: 0 auto;
+  background: #6867ab;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-height: 680px;
+}
+
+.img_illustration {
+  background-image: url(../../public/illustration.png);
+  width: 1230px;
+  height: 680px;
+  margin-left: 26%;
+}
+
+.img_play {
+  background-image: url(../../public/play.png);
+  width: 544px;
+  height: 192px;
+  position: absolute;
+  left: 13%;
+  top: 35%;
+  background-repeat: no-repeat;
+}
+
+.img_group {
+  background-image: url(../../public/img/Group1.png);
+  width: 322px;
+  height: 110px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+}
+
+.img_spheres {
+  background-image: url(../../public/img/Spheres1.png);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 10%;
+  top: 90%;
+  background-repeat: no-repeat;
+}
+
 .img_footer {
   background-image: url(../../public/footer.png);
   width: 1504px;
   height: 567px;
-  margin: 0;
 }
 
 .header_logo {
-    margin-left: 120px;
-    width: 90px;
-    height: 90px;
-    left: 118px;
-    top: 0px;
-    background-image: url(../../public/logo.svg);
+  width: 90px;
+  height: 90px;
+  top: 0px;
+  background-image: url(../../public/logo.svg);
 }
-
 
 .card_img_maks {
   background-image: url(../../public/img/photo/maks.png);
@@ -54,20 +95,20 @@ body {
 }
 
 .container {
-  padding: 2px 160px;
+  margin: 0 auto;
+  max-width: 1180px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px 72px 15px;
   flex-wrap: wrap;
-  max-width: 1197px;
 }
-
 
 .title {
   margin-top: 10px;
   margin-right: 20px;
   color: #111827;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -75,7 +116,7 @@ body {
 
 .card__body {
   color: #111827;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -83,7 +124,7 @@ body {
 }
 
 p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -94,9 +135,11 @@ p {
   background-image: url(../../public/Group\ 22.png);
   width: 492px;
   height: 120px;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
   background-repeat: no-repeat;
 }
-
 
 .logister {
   position: absolute;

@@ -1,5 +1,7 @@
-import Head from 'next/head'
+import Head from "next/head";
 // import Pro from '../pages/pro'
+import Schedule from "../components/schedule";
+import Team from "../components/team";
 
 export default function Home() {
   return (
@@ -10,9 +12,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        Hello
-      </main>
+      <div className="main">
+        <svg className="img_play"></svg>
+        <svg className="img_illustration"></svg>
+      </div>
+      <div className="container">
+        <svg className="img_group"></svg>
+        <Schedule />
+        <svg className="comand"></svg>
+        <Team />
+      </div>
     </>
-  )
+  );
 }
