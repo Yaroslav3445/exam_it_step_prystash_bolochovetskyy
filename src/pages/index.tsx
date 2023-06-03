@@ -2,6 +2,8 @@ import Head from "next/head";
 // import Pro from '../pages/pro'
 import Schedule from "../components/schedule";
 import Team from "../components/team";
+import Slider from "../components/slider";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -13,14 +15,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="main">
-        <svg className="img_play"></svg>
+        <Link className="img_play" href="/"></Link>
         <svg className="img_illustration"></svg>
       </div>
       <div className="container">
         <svg className="img_group"></svg>
+        </div>
+        <div className="container">
+        <div className="body">
+        <h2>Сьогодні у програмі</h2>
+        </div>
         <Schedule />
         <svg className="comand"></svg>
         <Team />
+        <svg className="partners"></svg>
+        <Slider/>
       </div>
     </>
   );

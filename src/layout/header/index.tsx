@@ -12,22 +12,22 @@ const Header = () => {
           <nav>
             <ul className={s.header_list}>
               <li>
-                <Link href="/news">Новини</Link>
+                <Link className={s.header_list} href="/news">Новини</Link>
               </li>
               <li>
-                <Link href="/">Про нас</Link>
+                <Link className={s.header_list} href="/">Про нас</Link>
               </li>
               <li>
-                <Link href="/schedule">Розклад</Link>
+                <Link className={s.header_list} href="/schedule">Розклад</Link>
               </li>
               <li>
-                <Link href="/team">Команда</Link>
+                <Link className={s.header_list} href="/team">Команда</Link>
               </li>
               <li>
-                <Link href="/">Подкасти</Link>
+                <Link className={s.header_list} href="/">Подкасти</Link>
               </li>
               <li>
-                <Link href="/">Контакти</Link>
+                <Link className={s.header_list} href="/">Контакти</Link>
               </li>
             </ul>
           </nav>
