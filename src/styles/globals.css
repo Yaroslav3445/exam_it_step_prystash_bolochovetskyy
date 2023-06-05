@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family-Montserrat:500, 480, 700, 600|Source+Sans+Pro:400,680 | Roboto:400|Inter:800");
+@import url("https://fonts.googleapis.com/css?family-Montserrat:500, 400, 700, 600|Source+Sans+Pro:400,680 | Roboto:400|Inter:800");
 
 body {
   font-family: "Poppins", sans-serif;
@@ -16,14 +16,14 @@ body {
 }
 
 .img_illustration {
-  background-image: url(../../public/illustration.png);
+  background-image: url(../../public/img/other/illustration.png);
   width: 1230px;
   height: 680px;
   margin-left: 26%;
 }
 
 .img_play {
-  background-image: url(../../public/play.png);
+  background-image: url(../../public/img/other/play.png);
   width: 544px;
   height: 192px;
   position: absolute;
@@ -33,7 +33,7 @@ body {
 }
 
 .img_group {
-  background-image: url(../../public/img/Group1.png);
+  background-image: url(../../public/img/group/Group1.png);
   width: 322px;
   height: 110px;
   margin: 0 auto;
@@ -43,7 +43,7 @@ body {
 }
 
 .img_spheres {
-  background-image: url(../../public/img/Spheres1.png);
+  background-image: url(../../public/img/other/Spheres1.png);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -53,7 +53,7 @@ body {
 }
 
 .img_footer {
-  background-image: url(../../public/footer.png);
+  background-image: url(../../public/img/other/footer.png);
   width: 1504px;
   height: 567px;
 }
@@ -94,15 +94,25 @@ body {
 }
 
 .slider1 {
-  background-image: url(../../public/Group\ 50.png);
+  background-image: url(../../public/img/partners/kyivstar.png);
   background-repeat: no-repeat;
   height: 205px;
 }
 
 .slider2 {
-  background-image: url(../../public/Group\ 51.png);
+  background-image: url(../../public/img/partners/akord.png);
   background-repeat: no-repeat;
   height: 205px;
+}
+
+.podkasty {
+  width: 390px;
+  height: 110px;
+  background-image: url(../../public/img/group/Group57.png);
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -153,7 +163,7 @@ p {
 }
 
 .comand {
-  background-image: url(../../public/Group\ 22.png);
+  background-image: url(../../public/img/group/Group22.png);
   width: 492px;
   height: 120px;
   margin: 0 auto;
@@ -163,7 +173,7 @@ p {
 }
 
 .partners {
-  background-image: url(../../public/Group\ 47.png);
+  background-image: url(../../public/img/group/Group47.png);
   width: 492px;
   height: 120px;
   margin: 0 auto;
@@ -198,8 +208,4 @@ h1 {
   line-height: 71px;
   color: #000000;
   padding-bottom: 83px;
-}
-
-.vector {
-  background-image: url(../../public/Vector\ 3.png);
 }

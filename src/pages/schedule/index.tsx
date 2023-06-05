@@ -5,6 +5,9 @@ import Schedules from "../../components/schedule";
 const Schedule = () => {
   return (
     <>
+      <div className="container">
+        <svg className="img_group"></svg>
+      </div>
       <div className={s.our}>
         <div className={s.title_news}>
           <a className={s.title_gradiend} href="#">

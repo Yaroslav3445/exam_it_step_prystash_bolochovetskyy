@@ -3,6 +3,7 @@ import Head from "next/head";
 import Schedule from "../components/schedule";
 import Team from "../components/team";
 import Slider from "../components/slider";
+import PodkastyBody from "../components/podkasty_body";
 import Link from "next/link";
 
 export default function Home() {
@@ -20,16 +21,32 @@ export default function Home() {
       </div>
       <div className="container">
         <svg className="img_group"></svg>
-        </div>
-        <div className="container">
+      </div>
+      <div className="container">
         <div className="body">
-        <h2>Сьогодні у програмі</h2>
+          <h2>Сьогодні у програмі</h2>
         </div>
+      </div>
+      <div className="container">
         <Schedule />
+      </div>
+      <div className="container">
+        <div className="podkasty"></div>
+      </div>
+      <div className="container">
+        <PodkastyBody />
+      </div>
+      <div className="container">
         <svg className="comand"></svg>
+      </div>
+      <div className="container">
         <Team />
+      </div>
+      <div className="container">
         <svg className="partners"></svg>
-        <Slider/>
+      </div>
+      <div className="container">
+        <Slider />
       </div>
     </>
   );

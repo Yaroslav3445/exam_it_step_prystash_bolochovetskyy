@@ -1,0 +1,68 @@
+.main_border {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.main_border_item {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.border {
+  width: 330px;
+  height: 301px;
+  border: 2px solid #f1db49;
+  border-radius: 20px;
+  margin-right: 60px;
+}
+
+.border_blue {
+  width: 330px;
+  height: 301px;
+  border-radius: 20px;
+  border: 2px solid #4de5ff;
+  margin-right: 60px;
+}
+
+.border_image_1 {
+  width: 300px;
+  height: 254px;
+  background-image: url(../../../public/img/podkasty_body/01.png);
+  margin: 25px 30px 30px 0px;
+  background-repeat: no-repeat;
+}
+
+.border_image_2 {
+  width: 316.07px;
+  height: 254px;
+  background-image: url(../../../public/img/podkasty_body/02.png);
+  margin: 25px 30px 30px 0px;
+  background-repeat: no-repeat;
+}
+
+.border_image_3 {
+  width: 300px;
+  height: 254px;
+  background-image: url(../../../public/img/podkasty_body/03.png);
+  margin: 25px 30px 30px 0px;
+  background-repeat: no-repeat;
+}
+
+.border_image_4 {
+  position: relative;
+  width: 300px;
+  height: 254px;
+  background-image: url(../../../public/img/podkasty_body/04.png);
+  margin: 25px 30px 0px 30px;
+  background-repeat: no-repeat;
+}
+
+.border_image_5 {
+  width: 300px;
+  height: 254px;
+  background-image: url(../../../public/img/podkasty_body/05.png);
+  background-repeat: no-repeat;
+  margin: 25px 30px 30px 0px;
+}
