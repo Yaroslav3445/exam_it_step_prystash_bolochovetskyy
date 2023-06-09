@@ -4,9 +4,9 @@ import s from "./footer.module.scss";
 const Footer = () => {
   return (
     <>
-      <div className={s.container}>
-        <svg className="img_footer"></svg>
-      </div>
+      <footer className={s.footer}>
+        <svg className={s.fort}></svg>
+      </footer>
     </>
   );
 };

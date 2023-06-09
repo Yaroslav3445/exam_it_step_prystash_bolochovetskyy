@@ -1,8 +1,13 @@
-.container {
-  margin: 0 auto;
-  max-width: 1180px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
+.footer {
+  height: 567px;
+  position: relative;
+  margin-top: 57px;
+}
+
+.fort {
+  background-image: url(../../../public/img/other/footer.png);
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  height: 100%;
 }
